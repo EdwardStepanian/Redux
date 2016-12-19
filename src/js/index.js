@@ -7,7 +7,7 @@
 // const main = document.getElementById('main');
 // ReactDOM.render(<App/>, main);
 
-import { combineReducers , createStore } from 'redux';
+import { combineReducers , createStore } from 'Redux';
 
 const userReducer = (state = {} , action) => {
 	switch( action.type ){
